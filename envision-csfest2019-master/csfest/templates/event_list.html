@@ -1,0 +1,52 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Lobster|Open+Sans&display=swap" rel="stylesheet">
+<style >
+  li{
+    margin-top: 10px;
+    margin-left: 30PX;
+    
+  }
+  .event{
+    /*interstellar*/
+    width:100%;
+  position: absolute;
+  right: 0px;
+        left:0px;
+      height: 650px;
+      float: left;
+    display: inline-block;
+    /*background: linear-gradient(-65deg,#663300,#94383d, #ffbf80,#ffaa80,#b36565,#5c5c8a,#1f3d7a,#002266,#212145,#000028);*/
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3fa43143806895.57fd6072bcd52.png');
+    background-repeat: no-repeat;
+     background-size: cover;
+      opacity:.95;
+  }
+</style>
+
+<center>
+<div class="event">
+
+
+  <h4 style="color: antiquewhite; font-size: 50px; padding-top: 30px; padding-bottom: 30px;font-family: 'Lobster', cursive;">&nbsp&nbsp&nbsp&nbsp&nbsp<u>EVENTS:-<u></h4>
+  {% if event_list %}
+  
+  
+  <ul>
+  
+    {% for event in event_list %}
+      <li style="padding-bottom: 10px; list-style-type: none; font-family: 'Indie Flower', cursive;">
+        
+        <a href="{{ event.get_absolute_url }}" style="color: white; text-shadow: 2px 2px black; font-size: 30px;">{{ event.name }}</a> 
+    
+      </li>
+    {% endfor %}
+  </ul>
+  
+  {% else %}
+    <p>Dhire, Botso Dhire...</p>
+  {% endif %}    
+  </div>
+</center>
+{% endblock %}

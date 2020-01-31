@@ -1,0 +1,48 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Fruktur|Shadows+Into+Light&display=swap" rel="stylesheet">
+<style>
+.detail{
+ /*interstellar*/
+ width:100%;
+  position: absolute;
+  right: 0px;
+        left:0px;
+      height: 650px;
+      float: left;
+    /*display: inline-block;*/
+    /*background: linear-gradient(-65deg,#663300,#94383d, #ffbf80,#ffaa80,#b36565,#5c5c8a,#1f3d7a,#002266,#212145,#000028);*/
+    /*background-image: url('http://eskipaper.com/images/high-tech-wallpapers-1.jpg');*/
+    background-image: url('https://scontent.fccu10-1.fna.fbcdn.net/v/t1.0-9/s960x960/82250695_112794310254419_160677440962691072_o.png?_nc_cat=110&_nc_oc=AQmOlrTEPfj_67F-ofpAEV-DkIaYclMwjoz5938PmkkmQIZSEVVjypBH5WdQPurXfbs&_nc_ht=scontent.fccu10-1.fna&oh=53b65633089551265943efb9923920f7&oe=5ED59843');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:.95;
+    padding-left: 50px;
+    padding-top: 50px;
+    color:azure;
+}
+ul li{
+  margin-left: 20px;
+}
+</style>
+<center>
+<div class="detail">
+  <h1 style=" font-family: 'Fruktur', cursive;">{{ participant.first_name }}'s PROFILE</h1>
+
+  <p><strong>Username :</strong> {{ participant.user }}</p>
+  <p><strong> Name:</strong>{{ participant.first_name }} {{participant.last_name}}</p>
+   <p><strong>College :</strong> {{ participant.college }}</p>
+  <p><strong>Email :</strong> {{ participant.email }}</p>
+  <p><strong>Events participated :</strong></p>
+  <ul>
+    {% for event in participant.events_participate.all %}
+      <li>
+        <a href="{{ event.get_absolute_url }}">{{ event.name }}</a> 
+    
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+</center>
+ {% endblock %}   

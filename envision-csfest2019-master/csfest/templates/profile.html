@@ -1,0 +1,43 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Fruktur|Shadows+Into+Light&display=swap" rel="stylesheet">
+<style>
+.profile {
+ /*margin-left: 40px;	*/
+ 
+  background-image: url('https://scontent.fccu10-1.fna.fbcdn.net/v/t1.0-9/s960x960/82250695_112794310254419_160677440962691072_o.png?_nc_cat=110&_nc_oc=AQmOlrTEPfj_67F-ofpAEV-DkIaYclMwjoz5938PmkkmQIZSEVVjypBH5WdQPurXfbs&_nc_ht=scontent.fccu10-1.fna&oh=53b65633089551265943efb9923920f7&oe=5ED59843');
+  background-repeat: no-repeat;
+     background-size: cover;
+     opacity: .95!important;
+     height: 650px;
+     width: 100%;
+
+ 
+}
+ul li{
+  margin-left: 20px;
+}
+</style>
+<center>
+<div class="profile">
+
+  <h1 style="font-size: 40px; color: antiquewhite; font-family: 'Fruktur', cursive; padding-top: 30px; padding-bottom: 30px;"><u>MY PROFILE</u></h1>
+
+  <p  style="font-size: 30px; color: antiquewhite;font-family: 'EB Garamond', serif;"><span style="font-family: 'Shadows Into Light', cursive;"><strong>User :</strong></span> {{ participant.user }}</p>
+  <p  style="font-size: 30px; color: antiquewhite;font-family:'EB Garamond', serif; "><span style="font-family: 'Shadows Into Light', cursive;"><strong> Name :</strong></span>{{ participant.first_name }} {{participant.last_name}}</p>
+  <p  style="font-size: 30px; color: antiquewhite;font-family: 'EB Garamond', serif;"><span style="font-family: 'Shadows Into Light', cursive;"><strong>College :</strong></span> {{ participant.college }}</p>
+  <p  style="font-size: 30px; color: antiquewhite;font-family: 'EB Garamond', serif;"><span style="font-family: 'Shadows Into Light', cursive;"><strong>Email :</strong></span> {{ participant.email }}</p>
+  <p  style="font-size: 30px; color: antiquewhite;font-family: 'EB Garamond', serif;"><span style="font-family: 'Shadows Into Light', cursive;"><strong>Events participated :</strong></span></p>
+  <ul style="font-size: 30px; color: antiquewhite;font-family: 'EB Garamond', serif; list-style-type: none; " >
+    {% for event in participant.events_participate.all %}
+      <li>
+        <strong>
+        <a href="{{ event.get_absolute_url }}">{{ event.name }}</a> 
+        </strong>
+      </li>
+    {% endfor %}
+  </ulstyle="font-size: 30px; color: antiquewhite;font-family: 'Shadows Into Light', cursive; ">
+</div>
+</center>
+ {% endblock %}  

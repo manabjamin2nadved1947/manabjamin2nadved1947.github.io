@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% block title %}<title>Envision 2019</title>{% endblock %}
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .title-panel {
+
+      width: 100%;
+      min-height: 200px;
+      margin-top: 0px;
+      /*min-height: 200px;*/
+
+      /*background-color: pink;*/
+      background-image: url('https://i.pinimg.com/736x/01/f3/6a/01f36a2ad3c00f5c709232809801e264.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      
+    }
+
+    .title-panel .left {
+      padding-left: 20px;
+      padding-top: 10px;
+      line-height: 20px;
+      float: left;
+
+      font-family: 'Chivo', sans-serif;
+      color: orange;
+    }
+
+    .title-panel h1 {
+      font-size: 80px;
+    }
+
+    .title-panel .right {
+      width: 40%;
+      height: 100px;
+
+      background-repeat: no-repeat;
+      background-size: contain;
+      float: right;
+      margin-top: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+
+    }
+
+    .sidebar-nav {
+      background: linear-gradient(45deg, blue, red);
+      width: 100%;
+      height: 650px;
+      margin-top: 0px !important;
+      padding-bottom: 20px;
+      border-style: groove;
+      float: left;
+      font-size: 20px;
+      /*text-transform: uppercase;*/
+      font-family: sans-serif;
+      position: absolute;
+      left:0;
+    }
+
+    .sidebar-nav li {
+      margin-top: 10px;
+      margin-left: 5px;
+    }
+
+    .sidebar-nav #id {
+      text-align: center;
+    }
+
+    .block {
+      width: 1125px;
+      height: 650px;
+      /*float: right;
+    /*border-style: groove;*/
+      margin-top: 0px;
+      /*display: inline-block;*/
+      position: absolute;
+      left:0;
+      right:0;
+      background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c4ae55836712.57fc7b2c8bffb.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 1125px 650px;
+      text-transform: uppercase;
+    }
+
+
+    .bottom-nav {}
+
+    @media only screen and (max-width: 600px) {
+      .content {
+        padding-top: 10px
+      }
+
+      .sidebar-nav li {
+        display: inline;
+        margin-left: 15px !important;
+        margin-top: 0px !important;
+      }
+      .title-panel .right {
+        width: 100%;
+        height: auto;
+        float: left
+      }
+
+      .title-panel .right img{
+        object-fit: contain
+      }
+
+      .sidebar-nav {
+        height: initial
+      }
+
+      .block {
+      width: initial;
+      height: initial;
+      }
+    }
+  </style>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--Add additional CSS in static file-->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+<div class="title-panel ">
+  <div class="left">
+    <h1>ENVISION</h1>
+    <h4>come to enjoy</h4>
+
+  </div>
+
+  <div class="right" style="box-shadow: 0 0 8px 8px white inset !important;">
+    <img class="mySlides"
+      src="https://i.pinimg.com/236x/c2/37/75/c23775191e4f24ede76098337a1b3024--design-posters-poster-designs.jpg"
+      height="200px" width="100%">
+    <img class="mySlides"
+      src="https://s3-us-west-2.amazonaws.com/cdn.panda-gossips.com/production/posts/eyecatches/000/001/349/original.jpg?1513426719"
+      width="100%" height="200px">
+    <img class="mySlides" src="https://img.icons8.com/dusk/64/000000/slr-camera.png"
+      style="width:100%; height: 200px; ">
+  </div>
+</div>
+
+
+
+
+  <div class="container-fluid content">
+    <div class="row">
+      <div class="col-md-3">
+        {% block sidebar %}
+        <ul class="sidebar-nav">
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'events' %}">Events</a></li>
+          <li><a href="{%url 'workforce' %}">Workforce</a></li>
+
+
+
+
+          {% if user.is_authenticated %}
+          <li><strong>User:</strong> {{ user.get_username }}</li>
+          {% if user.participant.pk %}
+          <li><a href="{% url 'profile' pk=user.participant.pk %}">My Profile</a></li>
+          <li><a href="{% url 'participant_update' pk=user.participant.pk %}">Update Profile</a></li>
+          <li><a href="{% url 'participant_delete' pk=user.participant.pk %}">Delete Profile</a></li>
+          {% elif user.is_staff %}
+          <li><a href="{% url 'participants' %}">Participants</a></li>
+          {% else %}
+          <li><a href="{% url 'participant_create'%}" class="text-success bg-warning"><strong>CREATE
+                PROFILE</strong></a></li>
+
+          {% endif %}
+          <li><a href="{% url 'logout'%}">Logout</a></li>
+          {% else %}
+          <li><a href="{% url 'login'%}">Login</a></li>
+          <li><a href="{% url 'register' %}"><em>REGISTRATION</em></a></li>
+          {% endif %}
+
+          <li style="padding-top: 200px;"><a href="{%url 'reach' %}"><img
+                src="https://img.icons8.com/dusk/50/000000/map.png"></a></li>
+          <li><a href="{%url 'reach' %}">How To Reach</a></li>
+          <li style=" padding-top: 20px; font-size: 30px; margin-left: 5px; "><a href="{% url 'contacts' %}">Contact
+              Us</a></li>
+        </ul>
+        {% endblock %}
+      </div>
+
+      <div class="col-md-8 ">
+
+        <div class="block ">
+          <div class="img-overlay">
+            {% block content %}
+
+            {%endblock %}
+          </div>
+        </div>
+        <div class="bottom-nav"></div>
+
+        {% block pagination %}
+        {% if is_paginated %}
+        <div class="pagination">
+          <span class="page-links">
+            {% if page_obj.has_previous %}
+            <a href="{{ request.path }}?page={{ page_obj.previous_page_number }}">previous</a>
+            {% endif %}
+            <span class="page-current">
+              Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+            {% if page_obj.has_next %}
+            <a href="{{ request.path }}?page={{ page_obj.next_page_number }}">next</a>
+            {% endif %}
+          </span>
+        </div>
+        {% endif %}
+
+        {% endblock %}
+
+        <script>
+          var myIndex = 0;
+          carousel();
+
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

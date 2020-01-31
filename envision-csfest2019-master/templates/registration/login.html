@@ -1,0 +1,65 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=Amarante&display=swap" rel="stylesheet">
+
+<style >
+  .login{
+    font-family: 'Amarante', cursive;
+  }
+  .button{
+    margin-left: 77px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  td{
+    color: white;
+  text-transform: uppercase;
+  font-weight: 30px;
+}
+  form{
+    margin-top: 0px;
+    margin-left:  10px; 
+    padding-top: 60px;
+    
+  }
+</style>
+
+<div class="login" style="background-image: url('https://scontent.fccu10-1.fna.fbcdn.net/v/t1.0-0/p180x540/82228206_113251600208690_5554643502693875712_o.png?_nc_cat=108&_nc_oc=AQmlghdrkbYStc4VkLmj7CZFHG7LOFjSymDlR8Z7WfoqLhGvbRL7ZRynqAop6kB7oCg&_nc_ht=scontent.fccu10-1.fna&oh=bcf5bcd87c93e9b8aadaa4e3ed5ec8f0&oe=5E9CE2B8'); height: 650px; width: 100%; opacity:.95 ; background-size: cover; background-repeat: no-repeat;">
+<center>
+{% if form.errors %}
+  <p style="color: white;">Your username and password didn't match. Please try again.</p>
+{% endif %}
+
+{% if next %}
+  {% if user.is_authenticated %}
+    <p style="color: white;">Your account doesn't have access to this page. To proceed,
+    please login with an account that has access.</p>
+  {% else %}
+    <p style="color: white;">Please login to see this page.</p>
+  {% endif %}
+{% endif %}
+
+<form method="post" action="{% url 'login' %}">
+{% csrf_token %}
+<table>
+
+<tr>
+  <td>{{ form.username.label_tag }}</td>
+  <td>{{ form.username }}</td>
+</tr>
+
+<tr>
+  <td>{{ form.password.label_tag }}</td>
+  <td>{{ form.password }}</td>
+</tr>
+</table>
+
+<input type="submit" value="login" class="button"/>
+<input type="hidden" name="next" value="{{ next }}" />
+</form>
+{# Assumes you setup the password_reset view in your URLconf #}
+<p style="padding-top: 20px; padding-left: 70px;"><a href="{% url 'password_reset' %}">Lost password?</a></p>
+</center>
+</div>
+{% endblock %}

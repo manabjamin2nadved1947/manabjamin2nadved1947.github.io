@@ -1,0 +1,25 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<style>
+  li{
+    
+    margin-left: 60px;
+  }
+</style>
+
+
+  <h1>Participant List</h1>
+  {% if participant_list %}
+  <ul>
+    {% for participant in participant_list %}
+      <li>
+        <a href="{{ participant.get_absolute_url }}">{{ participant.first_name }} {{ participant.last_name}}</a> 
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>Dhire, Botso Dhire...</p>
+  {% endif %}
+       
+{% endblock %}

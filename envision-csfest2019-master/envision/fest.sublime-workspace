@@ -1,0 +1,1512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"p",
+				"padding-left\tproperty"
+			],
+			[
+				"te",
+				"text-shadow\tproperty"
+			],
+			[
+				"pi",
+				"pink"
+			],
+			[
+				"b",
+				"black"
+			],
+			[
+				"co",
+				"cover\tobject-fit"
+			],
+			[
+				"obje",
+				"object-fit\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"backgr",
+				"background\tproperty"
+			],
+			[
+				"h",
+				"h4\tTag"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"MAR",
+				"margin-left\tproperty"
+			],
+			[
+				"backg",
+				"background\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"img",
+				"img-overlay"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"backgro",
+				"background-size\tproperty"
+			],
+			[
+				"fo",
+				"font-style\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"pdd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"L",
+				"ListView"
+			],
+			[
+				"w",
+				"workforce"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"bo",
+				"border-style\tproperty"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"parti",
+				"participant"
+			],
+			[
+				"par",
+				"Participant"
+			],
+			[
+				"f",
+				"fields"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"Crea",
+				"CreateView"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"tr",
+				"True"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"RE",
+				"request"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"c",
+				"contrib"
+			],
+			[
+				"M",
+				"ManyToManyField"
+			],
+			[
+				"eve",
+				"event_list"
+			],
+			[
+				"even",
+				"event"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"e",
+				"em\tTag"
+			],
+			[
+				"Mode",
+				"Model"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"N",
+				"NS"
+			],
+			[
+				"ex",
+				"extends"
+			],
+			[
+				"desg",
+				"designation"
+			],
+			[
+				"na",
+				"Name"
+			],
+			[
+				"De",
+				"Desg"
+			],
+			[
+				"E",
+				"Eid"
+			],
+			[
+				"pr",
+				"proposed_renewal_date"
+			],
+			[
+				"boo",
+				"book_instance"
+			],
+			[
+				"Re",
+				"RenewBookForm"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"Boo",
+				"BookInstance"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"ren",
+				"renew_book_librarian"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"da",
+				"datetime"
+			],
+			[
+				"Fo",
+				"forms"
+			],
+			[
+				"S",
+				"SET_NULL"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"num",
+				"num_visits"
+			],
+			[
+				"nu",
+				"num_visits"
+			],
+			[
+				"num_",
+				"num_visits"
+			],
+			[
+				"lis",
+				"list_display"
+			],
+			[
+				"B",
+				"BookListView"
+			],
+			[
+				"sta",
+				"status__exact"
+			],
+			[
+				"Book",
+				"BookInstanceInline"
+			],
+			[
+				"file",
+				"fields"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"A",
+				"Author"
+			],
+			[
+				"BOo",
+				"BookInstance"
+			],
+			[
+				"Sta",
+				"STATIC_URL"
+			],
+			[
+				"ur",
+				"urlpatterns"
+			],
+			[
+				"UR",
+				"urls"
+			],
+			[
+				"rE",
+				"RedirectView"
+			],
+			[
+				"cah",
+				"Chain"
+			],
+			[
+				"r",
+				"rear"
+			],
+			[
+				"ee",
+				"ele"
+			],
+			[
+				"cha",
+				"Chain"
+			],
+			[
+				"com",
+				"Compute"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"ph",
+				"Phno"
+			],
+			[
+				"n",
+				"ncall"
+			],
+			[
+				"inpu",
+				"input_marks"
+			],
+			[
+				"ob",
+				"ob2"
+			],
+			[
+				"clas",
+				"class"
+			],
+			[
+				"inter",
+				"Interger"
+			],
+			[
+				"ms",
+				"m_marks"
+			],
+			[
+				"Arr",
+				"Arrays"
+			],
+			[
+				"br",
+				"br\tbreak"
+			],
+			[
+				"Nu",
+				"NumberFormatException"
+			],
+			[
+				"Ar",
+				"ArithmeticException"
+			],
+			[
+				"I",
+				"Integer"
+			],
+			[
+				"mi",
+				"Main2"
+			],
+			[
+				"stri",
+				"String"
+			],
+			[
+				"R",
+				"Runnable"
+			],
+			[
+				"pri",
+				"println"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"feat",
+				"features_test"
+			],
+			[
+				"labels_",
+				"labels_train"
+			],
+			[
+				"fe",
+				"features_test"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/urls.py",
+			"settings":
+			{
+				"buffer_size": 1026,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/views.py",
+			"settings":
+			{
+				"buffer_size": 2510,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/reach.html",
+			"settings":
+			{
+				"buffer_size": 1434,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/templates/registration/login.html",
+			"settings":
+			{
+				"buffer_size": 1224,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/workforce.html",
+			"settings":
+			{
+				"buffer_size": 714,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/contacts.html",
+			"settings":
+			{
+				"buffer_size": 126,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/csfest/participant_form.html",
+			"settings":
+			{
+				"buffer_size": 333,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/event_detail.html",
+			"settings":
+			{
+				"buffer_size": 761,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/event_list.html",
+			"settings":
+			{
+				"buffer_size": 830,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/models.py",
+			"settings":
+			{
+				"buffer_size": 1594,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/participant_list.html",
+			"settings":
+			{
+				"buffer_size": 465,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/participant_detail.html",
+			"settings":
+			{
+				"buffer_size": 739,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/register.html",
+			"settings":
+			{
+				"buffer_size": 1485,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/admin.py",
+			"settings":
+			{
+				"buffer_size": 213,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/base_generic.html",
+			"settings":
+			{
+				"buffer_size": 7173,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 4287,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/TEST.html",
+			"settings":
+			{
+				"buffer_size": 1063,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "urls.py",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Devdan/Desktop/envision-csfest2019/csfest/templates/base_generic.html",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/profile.html",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/static/css/styles.css",
+		"/C/Users/Devdan/Desktop/testhtml.html",
+		"/C/Users/Devdan/Desktop/django_projects/envision/.gitignore",
+		"/C/Users/Devdan/Desktop/django_projects/envision/calculator_applet.java",
+		"/C/Users/Devdan/Desktop/TrollHunter (2010)  BRRiP 720p x264 DD5.1 EN NL NOR Subs/The.Troll.Hunter.2010.720p.BluRay.DD5.1.x264-LiNG.srt",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/csfest/participant_confirm_delete.html",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/__init__.py",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/views.py",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/templates/index.html",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/urls.py",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/forms.py",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/forms.py",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/models.py",
+		"/C/Users/Devdan/Desktop/django_projects/envision/templates/registration/login.html",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/static/css/styles.css",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/migrations/0001_initial.py",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/migrations/0002_auto_20191023_1814.py",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/apps.py",
+		"/C/Users/Devdan/Desktop/django_projects/envision/csfest/apps.py",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/locallibrary/settings.py",
+		"/C/Users/Devdan/Desktop/django_projects/envision/envision/settings.py",
+		"/C/Users/Devdan/Desktop/java package/Employee/Employeemain.java",
+		"/C/Users/Devdan/Desktop/java package/Employee/Empinfo/Details.java",
+		"/C/Users/Devdan/Desktop/java package/Employee/HRA/calHRA.java",
+		"/C/Users/Devdan/Desktop/java package/Employee/DA/calDA.java",
+		"/C/Users/Devdan/Desktop/java package/Employee/NetSal/calNetSal.java",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/templates/registration/password_reset_form.html",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/templates/registration/password_reset_email.html",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/templates/registration/password_reset_done.html",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/templates/registration/password_reset_confirm.html",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/templates/registration/password_reset_complete.html",
+		"/C/Users/Devdan/Desktop/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_user.html",
+		"/C/Users/Devdan/Desktop/gilbert strang _la_ lect notes/Change genre _ Django site admin.html",
+		"/C/Users/Devdan/Desktop/assignment.java",
+		"/C/Users/Devdan/Desktop/assignment_deque.java",
+		"/C/Users/Devdan/Desktop/assignment_telcall.java",
+		"/D/Nueve reinas (Nine Queens) [2000] DvDrip-paTon/Nueve reinas (Nine Queens) [2000] DvDrip-paTon.srt",
+		"/C/Users/Devdan/AppData/Local/Temp/Temp1_[DesireCourse.Com] Udemy - Become a Probability & Statistics Master.zip/[DesireCourse.Com] Udemy - Become a Probability & Statistics Master/01 Getting started/001 Welcome to Probability  Statistics-en.srt",
+		"/C/Users/Devdan/Desktop/PARASITE.2019.720p.HDRip.H264.AAC-Mkvking/PARASITE.2019.720p.HDRip.H264.AAC-Mkvking.srt",
+		"/C/Users/Devdan/Desktop/great ideas of theoretical cs/important_link_sipser.txt",
+		"/H/.Drive (2011)/Drive (2011).srt",
+		"/G/ /nadu bhya.txt",
+		"/D/cs/go.py",
+		"/C/Users/Devdan/AppData/Local/Temp/Temp1_Statistics for Data Science and Business Analysis.zip/[Tutsgalaxy.com] - Statistics for Data Science and Business Analysis/01 Introduction/001 What does the course cover_-subtitle-en.vtt",
+		"/D/cs/competitive programming arab/Algorithms_Greedy_01_Intro_01/Greedy.txt",
+		"/D/[TOP10FILMES]-Relatos.Selvagens.2015.BDRip.XviD.DUAL-OSR/Relatos.Selvagens.2015.BDRip.XviD.DUAL-OSR.srt",
+		"/C/Users/Devdan/Desktop/ml project-nb/ud120-projects/naive_bayes/nb_author_id.py",
+		"/C/Users/Devdan/Desktop/ml project-nb/ud120-projects/tools/email_preprocess.py",
+		"/C/Users/Devdan/Desktop/ml project-nb/ud120-projects/tools/startup.py",
+		"/C/Users/Devdan/Desktop/hello.py",
+		"/H/.La.Stanza.del.Figlio.2001.Nanni.Moretti.DVDRip.DivX.MakingOff.Org/La Stanza del figlio - English.srt",
+		"/H/.La.Stanza.del.Figlio.2001.Nanni.Moretti.DVDRip.DivX.MakingOff.Org/La Stanza del figlio.srt",
+		"/C/Users/Devdan/Desktop/web google/yoo.htm",
+		"/C/Users/Devdan/Desktop/web google/yoo.css",
+		"/C/Users/Devdan/Desktop/bin.c",
+		"/C/Users/Devdan/Desktop/yoo.css",
+		"/C/Users/Devdan/Desktop/yoo.htm",
+		"/G/The.Secret.In.Their.Eyes.2009.DVDRip.XviD.AC3-ViSiON/The.Secret.In.Their.Eyes.2009.DVDRip.XviD.AC3-ViSiON.English.srt",
+		"/D/Incendies 2010 1080p BluRay x264 AAC - Ozlem/incendies - English.sup",
+		"/D/[FreeTutorials.Us] Udemy - react-the-complete-guide-incl-redux/03 Understanding the Base Features & Syntax/base-syntax--03-finished/public/index.html",
+		"/G/War.Witch.[Rebelle].2012.DVDRip.AC3.HORiZON-ArtSubs/War.Witch.[Rebelle].2012.DVDRip.AC3.HORiZON-ArtSubs.fr.srt",
+		"/G/The Complete Web Developer in 2018 Zero to Mastery/The Complete Web Developer in 2018 Zero to Mastery.zip",
+		"/G/Ondskan (Evil) (2003) [720p] x264 - Jalucian/Ondskan (Evil) (2003) [720p] x264 - Jalucian.txt",
+		"/E/Fritz the Cat (1972)[DVDRip][big_dad_e™]/Fritz the Cat (1972)[DVDRip][big_dad_e™].txt",
+		"/C/Users/Devdan/Desktop/test/test.js",
+		"/C/Users/Devdan/Desktop/No Direction Home - Bob Dylan - A Martin Scorsese Picture (2005) CD1.srt",
+		"/C/Users/Devdan/Desktop/test/summer.html",
+		"/C/Users/Devdan/Desktop/test/winter.html",
+		"/C/Users/Devdan/Desktop/test/index.jade",
+		"/C/Users/Devdan/node_modules/react/cjs/react.development.js",
+		"/C/Users/Devdan/program.js",
+		"/C/Users/Devdan/Desktop/test/addition.js",
+		"/C/Users/Devdan/Desktop/test.js",
+		"/E/In.a.Better.World.[Hævnen].2010 .720p.BRRip.XviD.AC3 - CODY/north-2013-archive/problems/arrange/arrange_nn.c++",
+		"/E/In.a.Better.World.[Hævnen].2010 .720p.BRRip.XviD.AC3 - CODY/north-2013-archive/problems/bad/bad_tourist.c++",
+		"/E/In.a.Better.World.[Hævnen].2010 .720p.BRRip.XviD.AC3 - CODY/north-2013-archive/problems/arrange/problem.properties",
+		"/C/Users/Devdan/myapp/app/controllers/application_controller.rb",
+		"/C/Users/Devdan/myapp/db/seeds.rb",
+		"/C/Users/Devdan/node program.js",
+		"/C/Users/Devdan/objects.js",
+		"/C/Users/Devdan/object-properties.js",
+		"/C/Users/Devdan/Desktop/node_modules/parseurl/package.json",
+		"/C/Users/Devdan/Desktop/you.html",
+		"/C/Users/Devdan/Desktop/styles.css",
+		"/C/Users/Devdan/Desktop/hello.js",
+		"/C/Users/Devdan/Desktop/jquery.js",
+		"/C/Users/Devdan/Desktop/index.html",
+		"/C/Users/Devdan/Desktop/app.js",
+		"/C/Users/Devdan/Desktop/index.js",
+		"/C/Users/Devdan/my-app/src/index.css",
+		"/C/Users/Devdan/my-app/src/index.js",
+		"/C/Users/Devdan/Desktop/ex.html",
+		"/C/Users/Devdan/Desktop/blogger/blogger/config/routes.rb",
+		"/C/Users/Devdan/Desktop/blogger/blogger/app/models/article.rb",
+		"/C/Users/Devdan/Desktop/msg/MessengerApp/app/views/messages/index.html.erb",
+		"/C/Users/Devdan/Desktop/blogger/blogger/config/database.yml",
+		"/C/Users/Devdan/Desktop/blogger/blogger/db/migrate/20181208195239_create_articles.rb",
+		"/C/Users/Devdan/Desktop/blogger/blogger/app/controllers/articles_controller.rb",
+		"/C/Users/Devdan/Desktop/blogger/blogger/app/views/articles/index.html.erb",
+		"/C/Users/Devdan/Desktop/msg/MessengerApp/app/models/message.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/models/movie.rb",
+		"/C/Users/Devdan/Desktop/hello.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/.gitignore",
+		"/C/Sites/todo/app/controllers/tasks_controller.rb",
+		"/C/Sites/todo/app/assets/stylesheets/application.scss",
+		"/C/Sites/todo/app/assets/stylesheets/jq-tabs.css.erb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/.ruby-version",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/db/seeds.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/config/routes.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/controllers/actors_controller.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/assets/stylesheets/application.css",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/controllers/movies_controller.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/views/movies/index.html.erb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/views/movies/show.html.erb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/views/actors/index.html.erb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/views/actors/show.html.erb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/db/migrate/20181207205646_create_parts.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/db/migrate/20181207205554_create_movies.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/db/migrate/20181207205623_create_actors.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/models/actor.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/models/part.rb",
+		"/C/Users/Devdan/Desktop/movies/MovieApp/app/assets/javascripts/communication.js",
+		"/G/.gitignore",
+		"/C/Users/Devdan/Desktop/msg/MessengerApp/db/migrate/20181207111018_create_messages.rb",
+		"/C/Users/Devdan/Desktop/msg/MessengerApp/db/seeds.rb",
+		"/C/Users/Devdan/Desktop/msg/MessengerApp/config/routes.rb"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"round",
+			";\n",
+			"event",
+			"\t",
+			"event_name",
+			"from\t",
+			"\t\t",
+			"\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"participant"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								937,
+								937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/reach.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/templates/registration/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/workforce.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/contacts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/csfest/participant_form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/event_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								572
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/event_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								919,
+								919
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/participant_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/participant_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								903,
+								903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/base_generic.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4107,
+								4107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1820.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/Users/Devdan/Desktop/django_projects/envision/csfest/templates/TEST.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1271,
+								1271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 112.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fest.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Devdan\\Desktop\\django_projects\\envision\\envision\\fest.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

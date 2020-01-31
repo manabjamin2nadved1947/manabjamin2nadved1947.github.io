@@ -1,0 +1,248 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+<style>
+  
+  .test{
+    /*width: 1125px;*/
+     /*min-width:1270px!important;*/
+     width:100%;
+  position: absolute;
+  right: 0px;
+        left:0px;
+      height: 650px;
+      float: left;
+
+    /*border-style: groove;*/
+      margin-top: 0px;
+    /*float: right;*/
+    margin-top: 0px!important;
+    display: inline-block;
+    /*background: linear-gradient(-65deg,#862d2d, #5c5c8a, #8ebe9a,#732626,#846548,#cc9966,#4d2600,#cc7a00,#999999,#1a0d00);*/
+    background-image: url('https://scontent.fccu10-1.fna.fbcdn.net/v/t1.0-0/p180x540/82893163_115526763314507_4731315443329925120_o.jpg?_nc_cat=101&_nc_oc=AQk5s_juzr47N6oPcj0xVHDqIpTcDTc-gannickY92555QlHA9_ybecSXjtqndSaiM4&_nc_ht=scontent.fccu10-1.fna&_nc_tp=1002&oh=6799fbd62e9b364afda3435cf7a13027&oe=5EA007FC'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    padding-left: 10px;
+    }
+    .test .test-user{
+      color:white;
+    }
+   .Slides i{
+    display: inline-block; 
+    size: 70px;
+    margin-left: 100px;
+   
+    color: white;
+   }
+
+  .prev{
+    position: absolute; 
+    left: 0; 
+    padding: 12px; 
+    cursor: pointer; 
+    top:50%; 
+    font-weight: bold; 
+    font-size: 80px;
+    border-radius: 0 5px 5px 0;
+  }
+  .next{
+    position: absolute; 
+    right: 0; 
+    padding: 12px; 
+    cursor: pointer; 
+    top:50%; 
+    font-weight: bold; 
+    font-size: 80px;
+    border-radius: 5px 0 0 5px;
+  } 
+
+.fades{
+  -webkit-animation-name: fades;
+  -webkit-animation-duration: 6.0s;
+  animation-name: fades;
+  animation-duration: 6.0s;
+  }
+
+@-webkit-keyframes fades {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fades {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.prev:hover, .next:hover {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+  .glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+ 
+
+ </style>
+ 
+  
+  <div class="test">
+
+    {% if user.is_authenticated %}
+    <div class="test-user">
+      <p><strong style=" color: white;  font-size: 20px;">User:</strong> {{ user.get_username }}</p>
+           {% if user.participant.pk %}
+            <h1> welcome!!!</h1>
+            <h2>{{user.get_username}}</h2>
+    </div>
+          
+
+
+
+
+           {% elif user.is_staff %}
+           <ul><strong>number of events:</strong> {{ num_events }}</ul>
+    <ul><strong>number  of participants :</strong> {{ num_participants }}</ul>
+          <p><h2>Staff page</h2></p>
+           {% else %}
+           <h2><a href="{% url 'participant_create'%}" class="text-danger bg-warning"><strong>PLEASE CREATE YOUR PROFILE TO JOIN THE FEST</strong></a></h2>
+           
+           {% endif %}
+      {% else %}
+      <div class="slideshow-container">
+      <div class="Slides ">
+        <!--<center>
+        <p style="padding-bottom: 20px; padding-left: 3px;padding-top: 20px; color: white; text-shadow: 2px 2px 800000;">Yes Even We Exist! We invite you to Envision T20! We are newbies in organising events but we have tried to put our heart and soul in our work. The Dept. Of Computer Science, RKMRC welcomes you to attend an event so that we can reach the Grandeur in the years to come!&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp LET'S ENJOY TOGETHER!! </p></center>-->
+        <center> <div class="auto-carousel" style="padding-top: 30px; padding-bottom: 30px;">
+        <!--<img class="mySlides" src="https://img.icons8.com/cotton/64/000000/laptop-coding.png" style="width:60px;">
+        <img class="mySlides" src="https://img.icons8.com/dusk/64/000000/slr-camera.png" style="width:60px;">
+        <img class="mySlides" src="https://img.icons8.com/bubbles/64/000000/angry-face-meme.png" style="width:60px;">-->
+        <p class="mySlides" style="font-family: 'Allura', cursive; font-size: 50px; font-weight: 0; color: #ff4d4d;"> "You musn't be afraid to dream a little bigger"</p>
+        <p class="mySlides" style="font-family: 'Sacramento', cursive; font-size: 50px; font-weight: 0; color:#ff99e6;"> "Every hero has a journey. Every journey has an end"</p>
+        <p class="mySlides" style="font-family: 'Alex Brush', cursive; font-size: 50px; font-weight: 0; color:pink;"> "The dream is real"</p>
+        <p class="mySlides" style="font-family: 'Rouge Script', cursive; font-size: 50px; font-weight: 0; color:#ff9980;"> "Can you avenge evil without becoming it?"</p>
+        <span style="padding-left: 400px; font-size: 30px; color: white; font-family: 'Roboto Condensed', sans-serif;">__Chris Nolan</span>
+      </div>
+    </center>
+        <div class="w3-animate-left">
+        <i><img src="https://img.icons8.com/cotton/64/000000/laptop-coding.png"><br>coding round</i>
+        <i><img src="https://img.icons8.com/dusk/64/000000/slr-camera.png"><br>photography</i>
+        <i><img src="https://img.icons8.com/dusk/64/000000/treasure-map.png"><br>treasure hunt</i>
+        <i><img src="https://img.icons8.com/dusk/64/000000/training.png"><br>seminar</i>
+        <i><img src="https://img.icons8.com/bubbles/64/000000/angry-face-meme.png"><br>...and</i>
+        <br>
+        <a href="{% url 'events'%}"  style="float: right; padding-right: 20px; font-size: 25px; color:red; font-family:'Vidaloka',serif">many more</a>
+       </div>
+      <center><ul><a href="{% url 'register' %}" class="text-danger bg-warning glow"><h1 class="text-danger " style="padding-top: 100px; text-transform: uppercase; font-family: 'Alice', serif;"> Register</h1></a></ul>
+        <br><br><br><br><br><br>
+        <h4 class="text-success">**PLEASE USE DESKTOP MODE FOR BETTER EXPERIENCE!!</h4>
+      </center>
+       </div>
+
+    <div class="Slides  w3-animate-zoom">
+      
+        <p style="padding-bottom: 20px; padding-left: 3px;padding-top: 20px; color: white; text-shadow: 2px 2px 800000; font-family: 'Dosis', 'sans-serif'; font-size: 20px;">
+          
+          
+          Envision started off with the wonderful conception that you can plant the seed 🌲 of an idea that will grow into something more substantial over time 🕒
+          <br><br>
+          A brainchild 🧠👶 of our seniors which has witnessed developments of seismic 🌪️ proportions from the time of its conception, ENVISION, a one-of-a-kind fest which transcends the boundaries of technicality 💻  to venture into the paradigms of creativity and sportsmanship.
+          
+          <span>WE HAVE SOMETHING FOR EVERYONE AND EVERYTHING FOR SOMEONE.</span>
+          <!--<br><br>
+          Endowed with the blessings of the holy trinity,we seek to strike the perfect balance between reality and dreams. Dreams, that there exists an algorithm to everything and reality is merely its implementation.
+          <br><br>
+          Since we all share the common denominator, we all feel ourselves gravitating towards the machines ⚙️, come, let us all be a part of this magnificent serendipity! 🤗-->
+          <br><br>
+          In this Swiss cake 🧁 of an event,let you be the ones who fill up the gaps, because you are going to fill them with experiences and memories 🗓️ .Marvelous, terrible or bittersweet, we all are going to learn that way.
+          <br><br><br><br><br>
+           <center><span style="font-size: 50px; color: white; font-family: 'Rouge Script';">Check us out to find out more!!!!!!!</span></center>
+        </p>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)" style= "" >&#10094;</a>
+  <a class="next" onclick="plusSlides(1)" style= "">&#10095;</a>
+
+
+  </div>
+     {% endif %}
+
+</div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 1 seconds
+}
+
+
+
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("Slides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  /*for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }*/
+  slides[slideIndex-1].style.display = "block";
+  //dots[slideIndex-1].className += " active";
+} 
+
+</script>
+
+{% endblock %}
+

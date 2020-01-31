@@ -1,0 +1,45 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=Amarante&display=swap" rel="stylesheet">
+
+<style>
+	.bg
+	{
+		background-image: url('https://scontent.fccu10-1.fna.fbcdn.net/v/t1.0-9/s960x960/82250695_112794310254419_160677440962691072_o.png?_nc_cat=110&_nc_oc=AQn79BfvFqqaWl4sWLcxXrzdo_KBbqMGyZtMXssRleKa8HUBr_3ZHfs_fZn3XupYNCg&_nc_ht=scontent.fccu10-1.fna&oh=d27dad953d0464e42c752c95ef305e15&oe=5ED59843');
+		opacity: 0.95;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 650px;
+		width:  100%;
+		color: aliceblue;
+		padding-top: 50px;
+		padding-left: 50px;
+		padding-bottom: 50px;
+		font-family: 'Amarante', cursive;
+	}
+	.p-form ul{
+		list-style-type: none;
+		
+	}
+</style>
+
+<div class="bg">
+	<h4 class="text-danger"> Select at most 3 events from the list</h4>
+<div class="p-form">
+	<form action="" method="post">
+		{% csrf_token %}
+		{% if user.is_authenticated %}
+		
+
+		<table>
+		{{form.as_table}}
+		</table>
+		<input type="submit" name="" value="Submit">
+		{%endif%}
+	</form>
+</div>
+<br><br>
+<h5 class="text-danger" style="font-weight: bold; font-size: 20px;"><span style="text-transform: uppercase;" class="text-success">**Please recheck your profile after submitting.</span> <br>If your events participated does not show anything, please update it in update profile.</h5>
+</div>
+{% endblock %}

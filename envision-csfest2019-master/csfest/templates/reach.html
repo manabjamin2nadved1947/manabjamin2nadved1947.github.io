@@ -1,0 +1,79 @@
+ {% extends "base_generic.html" %}
+
+ {% block content %}
+ <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    .reach{
+     width:100%;
+  position: absolute;
+  right: 0px;
+        left:0px;
+      height: 650px;
+      float: left;
+    display: inline-block;
+    /*background: linear-gradient(-30deg,red, yellow, green);*/
+    background-image: url('http://wonderfulengineering.com/wp-content/uploads/2016/01/black-wallpaper-36.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    opacity: .95;
+    }
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 250px;  
+        width: 700px;
+        text-align: center; 
+        
+        
+       }
+       .transport h4 p{
+        padding-left: 10px!important;
+
+       }
+       .header-name{
+        font-family: 'Amarante', cursive;
+        font-size: 20px;
+        font-weight: bold;
+       }
+    </style>
+
+
+
+  </head>
+  <body>
+   <div class="reach">
+
+   	<center><div class ="header-name"><!--<h4 style="padding-bottom: 10px;">location:</h4>--> <p>Ramakrishna Mission Residential College,<br> RKMA Main Rd, Narendrapur, Kolkata, West Bengal 700103</p></div></center>
+
+    <!--The div element for the map -->
+    <center><div id="map"></div></center>
+    <div class="transport"><br><h4 style="color: red; margin-top: -40px; padding-top: 40px; font-family: 'Amarante', cursive;">Through metro</h4>
+    <br><p style="color: white; margin-top: -30px; margin-bottom: 20px;">Reach Kavi Nazrul metro station. From there, board an auto(to Ramakrishna Mission) or a bus (Barasat-Baruipur/Bus no. 218) and deboard at Mission gate/Narendrapur. </p>
+    <br><h4 style="color: red; margin-top: -40px; font-family: 'Amarante', cursive;">Through bus</h4>
+    <br><p style="color: white; margin-top: -30px; margin-bottom: 20px; ">Reach Garia bus stand (NOT Garia station or Gariahat). From there, board an auto(to Ramakrishna Mission) or a bus (Barasat-Baruipur/Bus no. 218) and deboard at Mission gate/Narendrapur.</p>
+    <br><h4 style="color: red; margin-top: -40px; font-family: 'Amarante', cursive;">Through train (NOT RECOMMENDED)</h4>
+    <br><p style="color: white; margin-top: -30px;">Reach Sonarpur railway station (South line from Sealdah). Board an auto to Kamalgazi. From there, board an auto(to Ramakrishna Mission) or a bus (Barasat-Baruipur/Bus no. 218) and deboard at Mission gate/Narendrapur. </p>
+  </div>
+</div>
+
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of RKMRC
+  var rkmrc = {lat: 22.4385, lng: 88.4002};
+  // The map, centered at RKMRC
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 14, center: rkmrc});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: rkmrc, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    </script>
+  </body>
+</html>
+
+{%endblock%}
